@@ -1,0 +1,317 @@
+/*цвет фона #F5F5F5  */
+
+/*первичный цвет заголовок #212121 */
+
+/*вторичный цвет текста #757575 */
+
+/*синие надписи акцент #2196F3 */
+
+/*часть цвета на лого #000000 */
+
+/* цвет hero #FFFFFF */
+
+/* цвет фона в hero #2F303A */
+
+/* цвет кнопки без ховера #F5F4FA */
+/* color: rgba(255, 255, 255, 0.6); */
+
+
+
+:root {
+    --primary-text-color: #212121;
+    --title-text-color: #757575;
+    --accent-color: #2196F3;
+    --hero-color: #FFFFFF;
+    --background-color: #F5F5F5;
+    --hero-background-color: #2F303A;
+    --logo-text-color: #000000;
+    --button-color: #F5F4FA;
+    --color: rgba(255, 255, 255, 0.6);
+}
+
+
+body {
+    background-color: var(--background-color);
+    color: var(--primary-text-color);
+    margin: 0;
+    
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: 0.03em;
+}
+
+
+.list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+
+
+
+/* heder */
+
+.logo {
+    color: var(--accent-color);
+    text-decoration: none;
+
+    font-family: 'Raleway', sans-serif;
+    font-size: 26px;
+    line-height: 1.2;
+}
+
+.span {
+    color: var(--logo-text-color);
+    text-decoration: none;
+
+    font-family: 'Raleway', sans-serif;
+    font-size: 26px;
+    line-height: 1.2;
+}
+
+.span:hover,
+.span:focus {
+    color: var(--accent-color);
+}
+
+.site-nav .link {
+    color: var(--primary-text-color);
+    text-decoration: none;
+
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 1.19;
+        letter-spacing: 0.02em;
+}
+
+.site-nav .link:hover,
+.site-nav .link:focus {
+    color: var(--accent-color);
+}
+
+.site-nav .link .current {
+    color: var(--primary-text-color);
+}
+
+.page-header .site-list .link {
+    color: var(--title-text-color);
+    text-decoration: none;
+
+    font-weight: 500;
+        font-size: 14px;
+        line-height: 1.14;
+        letter-spacing: 0.02em;
+}
+
+.page-header .site-list .link:hover,
+.site-list .link:focus {
+    color: var(--accent-color);
+}
+
+
+
+
+
+/* Hero */
+.hero {
+    background-color: var(--hero-background-color);
+}
+
+.hero-title {
+    color: var(--hero-color) ;
+
+        font-weight: 900;
+        font-size: 44px;
+        line-height: 1.36;
+
+        text-align: center;
+        letter-spacing: 0.06em;
+        text-transform: uppercase;
+}
+
+.button .primary {
+    color: var(--hero-color);
+    background-color: var(--accent-color);
+    cursor: pointer
+
+    font-family: inherit;
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 1.88;
+    
+        display: flex;
+        align-items: center;
+        text-align: center;
+        letter-spacing: 0.06em;
+}
+/* Section */
+
+ .visually-hidden {
+     position: absolute;
+     clip: rect(0 0 0 0);
+     width: 1px;
+     height: 1px;
+     margin: -1px;
+ }
+
+ 
+.feature-list .text-transform: uppercase {
+    color: var(--primary-text-color);
+
+            font-weight: 700;
+            font-size: 36px;
+            line-height: 1.14;
+            text-align: center;
+}
+
+
+.text {
+    color: var(--title-text-color);
+
+    font-size: 14px;
+    line-height: 1.71;
+}
+
+.section-title {
+    color: var(--primary-text-color);
+
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 1.17;
+        text-align: center;
+}
+
+.feature-list .item .title {
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 1.19;
+        text-align: center;
+}
+
+.feature-list .text {
+        font-size: 16px;
+        line-height: 1.19;
+        text-align: center;
+}
+
+
+
+
+
+
+
+
+/* page Portfolio */
+
+
+/* button */
+
+
+.button {
+    color: var(--hero-color);
+    background-color: var(--accent-color);
+    cursor: pointer
+}
+
+
+.list .button {
+    color: var(--primary-text-color);
+    background-color: var(--button-color);
+    cursor: pointer
+
+    font-family: inherit;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 1.62;
+        text-align: center;
+}
+
+.list .button:hover,
+.list .button:focus {
+    color: var(--hero-color);
+    background-color: var(--accent-color);
+}
+
+.sabject {
+    color: var(--primary-text-color);
+
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 2;
+        letter-spacing: 0.06em;
+}
+
+.text {
+    color: var(--title-text-color);
+
+        font-size: 16px;
+        line-height: 1.88;
+}
+
+
+
+
+
+
+
+/* footer */
+
+.footer {
+background-color: var(--hero-background-color);
+}
+
+.logo {
+    color: var(--accent-color);
+    text-decoration: none;
+
+    font-family: 'Raleway', sans-serif;
+    font-size: 26px;
+    line-height: 1.19;
+}
+
+.span {
+    color: var(--logo-text-color);
+    text-decoration: none;
+
+    font-family: 'Raleway', sans-serif;
+    font-size: 26px;
+    line-height: 1.19;
+}
+
+.span:hover,
+.span:focus {
+    color: var(--accent-color);
+}
+
+
+
+
+
+
+
+
+
+
+.address {
+    font-style: normal;
+}
+
+.link .span {
+    color: var(--hero-color);
+    text-decoration: none;
+        font-size: 14px;
+        line-height: 1.71;
+}
+
+.site-list .link{
+    color: var(--color);
+    text-decoration: none;
+        font-size: 14px;
+        line-height: 1.71;
+}
+
+.site-list .link:hover,
+.site-list .link:focus {
+    color: var(--accent-color);
+}
+
